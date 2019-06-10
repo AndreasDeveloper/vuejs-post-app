@@ -10,7 +10,9 @@ const postRoutes = require('./routes/api/posts');
 const init = async () => {
     // Server Init
     const server = Hapi.server({
-        port: 3000, host: 'localhost',
+        port: 3000, host: 'localhost', routes: {
+            cors: true
+        }
     });
 
     // Post Routes
