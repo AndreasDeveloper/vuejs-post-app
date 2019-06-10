@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tasks</title>
+    </head>
+    <body>
+        <h1>Tasks</h1>
+        <form method="POST" action="/tasks">
+            <input type="text" name="text" placeholder="Add new task" />
+        </form>
+        <ul>
+            {{#each tasks}}
+                <li>{{ text }}</li>
+            {{/each}}
+        </ul>
+    </body>
+</html>

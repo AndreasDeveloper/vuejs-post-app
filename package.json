@@ -1,0 +1,28 @@
+{
+  "name": "post-app",
+  "version": "1.0.0",
+  "description": "Full stack Vue, Hapi, Mongo application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./resources/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasDeveloper/vuejs-post-app.git"
+  },
+  "author": "AndreasDEV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreasDeveloper/vuejs-post-app/issues"
+  },
+  "homepage": "https://github.com/AndreasDeveloper/vuejs-post-app#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "cors": "^2.8.5",
+    "handlebars": "^4.1.2",
+    "inert": "^5.1.3",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.5.14",
+    "vision": "^5.4.4"
+  }
+}
