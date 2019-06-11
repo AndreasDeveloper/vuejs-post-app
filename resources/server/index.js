@@ -11,7 +11,10 @@ const init = async () => {
     // Server Init
     const server = Hapi.server({
         port: 3000, host: 'localhost', routes: {
-            cors: true
+            cors: true,
+            files: {
+                relativeTo: Path.join(__dirname, './public')
+            }
         }
     });
 
