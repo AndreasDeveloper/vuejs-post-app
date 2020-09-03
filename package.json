@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/AndreasDeveloper/vuejs-post-app#readme",
   "dependencies": {
-    "@hapi/hapi": "^18.3.1",
+    "@hapi/hapi": "^19.1.1",
     "cors": "^2.8.5",
     "handlebars": "^4.1.2",
     "inert": "^5.1.3",
